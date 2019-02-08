@@ -1,0 +1,85 @@
+/* Estilos globales*/
+body{
+    background: url('https://firebasestorage.googleapis.com/v0/b/vision-tecno.appspot.com/o/mosaic.png?alt=media&token=17f48368-d233-4767-be82-84d9275edc6c');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+/*Fin de los estilos globales*/
+/* estilos de la cabecera*/
+.cabecera img{
+    width: 150px;
+    height: auto;
+    border-radius: 45px;
+}
+.titulo_pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*fin de los estilos de la cabecera*/
+
+/*Estilos del formulario*/
+
+.formulario{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+
+.formulario .campo input,
+.formulario .campo select{
+    border-radius: 20px;
+}
+
+.formulario .campo select option{
+    border-radius: 20px!important;
+}
+#resultRecords{
+    color:#FFFFFF;
+}
+
+/*Estilos de la barra con los btns*/
+.barra_btns{
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 30px;
+}
+/* Fin Estilos de la barra con los btns*/
+
+/*Estilos de los divs que muestran los resultados */
+#resultRecords{
+     display: none; 
+    border:1px solid white;
+    border-radius:20px;;
+    background-color: rgba(255, 255, 255, .2);
+}
+#resultRecords .encabezado_tabla{
+    border-bottom: 3px solid white;
+    
+}
+#resultRecords .encabezado_tabla div{
+    text-align: justify;
+    border-right: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resultRecords .encabezado_tabla div:last-child{
+    border-right: none;
+}
+.contenedor_padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.MyBtn{
+    display: block;
+    width: 100px;
+}
+
+/*Fin Estilos de los divs que muestran los resultados */
+

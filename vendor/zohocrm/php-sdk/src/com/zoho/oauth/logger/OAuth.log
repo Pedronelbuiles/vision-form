@@ -1,0 +1,19 @@
+
+2019-02-06 20:38:42 SEVERE: Failed to connect to MySQL: (1049) Unknown database 'zohooauth'
+2019-02-06 20:38:42 SEVERE: Getting result set failed: () 
+2019-02-06 20:38:42 SEVERE: Exception occured while getting OAuthTokens from DB(file::ZohoOAuthPersistenceHandler)(No Tokens exist for the given user-identifier,Please generate and try again.)
+ZohoOAuthException Caused by:'No Tokens exist for the given user-identifier,Please generate and try again.' in C:\xampp\htdocs\projects\Vision-form\vendor\zohocrm\php-sdk\src\com\zoho\oauth\clientapp\ZohoOAuthPersistenceHandler.php(50)
+#0 C:\xampp\htdocs\projects\Vision-form\vendor\zohocrm\php-sdk\src\com\zoho\oauth\client\ZohoOAuthClient.php(38): ZohoOAuthPersistenceHandler->getOAuthTokens('pbuiles@visiont...')
+#1 C:\xampp\htdocs\projects\Vision-form\vendor\zohocrm\php-sdk\src\com\zoho\crm\library\common\ZCRMConfigUtil.php(124): ZohoOAuthClient->getAccessToken('pbuiles@visiont...')
+#2 C:\xampp\htdocs\projects\Vision-form\vendor\zohocrm\php-sdk\src\com\zoho\crm\library\api\APIRequest.php(59): ZCRMConfigUtil::getAccessToken()
+#3 C:\xampp\htdocs\projects\Vision-form\vendor\zohocrm\php-sdk\src\com\zoho\crm\library\api\APIRequest.php(101): APIRequest->authenticateRequest()
+#4 C:\xampp\htdocs\projects\Vision-form\vendor\zohocrm\php-sdk\src\com\zoho\crm\library\api\handler\MetaDataAPIHandler.php(33): APIRequest->getBulkAPIResponse()
+#5 C:\xampp\htdocs\projects\Vision-form\vendor\zohocrm\php-sdk\src\com\zoho\crm\library\setup\restclient\ZCRMRestClient.php(35): MetaDataAPIHandler->getAllModules()
+#6 C:\xampp\htdocs\projects\Vision-form\logic\configuration\authToken.php(21): ZCRMRestClient->getAllModules()
+#7 C:\xampp\htdocs\projects\Vision-form\logic\guardar.php(28): include('C:\\xampp\\htdocs...')
+#8 {main}
+2019-02-06 20:38:42 INFO: Access Token has expired. Hence refreshing.
+2019-02-06 20:44:20 INFO: Access Token has expired. Hence refreshing.
+2019-02-06 20:50:35 INFO: Access Token has expired. Hence refreshing.
+2019-02-06 20:53:52 INFO: Access Token has expired. Hence refreshing.
+2019-02-06 20:54:42 INFO: Access Token has expired. Hence refreshing.

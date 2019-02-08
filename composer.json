@@ -1,0 +1,6 @@
+{
+    "require": {
+        "zohocrm/php-sdk": "^1.1",
+        "cristianpontes/zoho-crm-client-php": "^1.7"
+    }
+}
