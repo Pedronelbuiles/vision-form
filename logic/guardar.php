@@ -7,8 +7,9 @@ if (!empty($_POST['txtnombre']) && !empty($_POST['txtcategoria']) && !empty($_PO
     $precio = trim(utf8_decode($_POST['txtprecio']));
     $canto = trim(utf8_decode($_POST['txtcanto']));
     $cants = trim(utf8_decode($_POST['txtcants']));
-    $query = "INSERT INTO productos(nombre, categoria, precio_unitario, cantidad_ordenada, cantidad_stock)
-     VALUES ('$nombre','$categoria', '$precio', '$canto', '$cants')";
+    $query = "INSERT INTO productos(nombre, categoria, precio_unitario, cantidad_ordenada, cantidad_stock, update_crm)
+     VALUES ('$nombre','$categoria', '$precio', '$canto', '$cants', 1)";
+
      $con->setQuery($query);
      if ($con->getQuery()) {
          $message = "Ingresado correctamente";

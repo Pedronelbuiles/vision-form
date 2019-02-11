@@ -25,7 +25,7 @@ while ($row = $con->getArrayRecord()) {
                 <div class='col-1'>".utf8_encode($row['update_crm'])."</div>
                 <div class='col-2 text-center'>
                     <a href='#!' class='btn btn-danger btn-sm MyBtn' title='Eliminar a ".utf8_encode($row['nombre'])."' onclick='if(confirm(\"¿Estas seguro?\")){deleteRecord(\"$entity\", \"$nombre\");}'>Eliminar</a>
-                    <a href='#!' class='btn btn-light btn-sm mt-2 MyBtn' title='Modificar a ".utf8_encode($row['nombre'])."' onclick='updateRecord(\"$entity\", \"$nombre\");'>Modificar</a>
+                    <a href='#!' class='btn btn-light btn-sm mt-2 MyBtn' title='Modificar a ".utf8_encode($row['nombre'])."' onclick='getRecord(\"$entity\", \"$nombre\");'>Modificar</a>
                 </div>
             </div>";
 }

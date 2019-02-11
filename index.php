@@ -75,6 +75,11 @@
                 <input type="reset" value="Limpiar campos" class="btn btn-danger">
                 </div>
             </div>
+            <div class="row mt-1">
+                <div class="col-12 text-center">
+                    <input type="button" value="Modificar" id="bntModificar" class="btn btn-dark">
+                </div>
+            </div>
         </form>
         <!-- Fin formualrio para creación de productos -->
         <!-- Muestra de resultados -->
