@@ -65,10 +65,8 @@ function mostrar_productos() {
 
 
 function updateRecord() {
-    
-    
     $.ajax({
-        'url':'logic/configuration/modificar-registro.php',
+        'url':'logic/modificar-registro.php',
         'data':$('#frmCrm').serialize(),
         'type':'POST',
         'datatype':'json',

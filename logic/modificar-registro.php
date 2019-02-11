@@ -1,6 +1,6 @@
 <?php
 if (!empty($_POST['txtnombre']) && !empty($_POST['txtcategoria']) && !empty($_POST['txtprecio']) && !empty($_POST['txtcanto']) && !empty($_POST['txtcants']) ) {
-    include '../configuration/config.php';
+    include 'configuration/config.php';
     $con->connect();
     $nombre = trim(utf8_decode($_POST['txtnombre']));
     $categoria = trim(utf8_decode($_POST['txtcategoria']));
