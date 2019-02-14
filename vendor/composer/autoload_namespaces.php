@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Pimple' => array($vendorDir . '/pimple/pimple/src'),
     'CristianPontes\\ZohoCRMClient' => array($vendorDir . '/cristianpontes/zoho-crm-client-php'),
     'Buzz' => array($vendorDir . '/kriswallsmith/buzz/lib'),
 );

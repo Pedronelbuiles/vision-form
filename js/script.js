@@ -8,6 +8,9 @@ $(function(){
     $('#bntModificar').click(function() {
         updateRecord();
     });
+    $('#bntApi').click(function() {
+        alimentarApi();
+    });
     $('#btn_crear_producto').click(function(){
         $('#btnGuardar').attr('disabled',false);
         $('#bntModificar').attr('disabled',true);
@@ -73,6 +76,7 @@ function updateRecord() {
         'success':function(data){
             $('#info').html(data.message);
             listRecords();
+            $('#frmCrm').trigger('reset');
             mostrar_productos();
         }
     });
@@ -108,4 +112,16 @@ function getRecord(entity, id) {
     $('#btnGuardar').attr('disabled',true);
     $('#bntModificar').attr('disabled',false);
     mostrar_form();
-}
+};
+function alimentarApi() {
+    $.ajax({
+      'url': 'logic/alimentar-api.php', 
+      'type': 'POST',
+      'datatype': 'json',
+      'data': $('#frmCrm').serialize()
+    });
+    $('#frmCrm').trigger('reset');
+    $('#frmCrm').fadeToggle('fast','linear');
+    listRecords();
+    mostrar_productos();
+  }

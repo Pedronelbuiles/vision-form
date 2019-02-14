@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    '253c157292f75eb38082b5acb06f3f01' => $vendorDir . '/nikic/fast-route/src/functions.php',
     '8b302be883928ca0b22f09763afb3514' => $vendorDir . '/zohocrm/php-sdk/src/index.php',
 );

@@ -19,7 +19,7 @@
             </div>
         </div>
     <!-- Formualrio para creación de productos -->
-        <form name="frmCrm" id="frmCrm" class="formulario">
+        <form name="frmCrm" id="frmCrm" class="formulario" method="POST">
             <div class="row">
                 <div class="col-12 col-md-6 text-center nombre_campo">
                     <h4>Nombre</h4>
@@ -75,9 +75,12 @@
                 <input type="reset" value="Limpiar campos" class="btn btn-danger">
                 </div>
             </div>
-            <div class="row mt-1">
-                <div class="col-12 text-center">
+            <div class="row mt-2">
+                <div class="col-12 col-md-6 ">
                     <input type="button" value="Modificar" id="bntModificar" class="btn btn-dark">
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <input type="button" value="Guardar con la api" id="bntApi" class="btn btn-dark">
                 </div>
             </div>
         </form>

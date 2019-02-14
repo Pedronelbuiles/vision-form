@@ -103,4 +103,14 @@ class Conection{
     {
         mysqli_close($this->link);
     }
+    // Conectar a BD
+    public function conectar(){
+        $conexion_mysql = "mysql:host=$this->host;dbname=$this->dataBase";
+        $conexionDB = new PDO($conexion_mysql, $this->user, $this->password);
+        $conexionDB->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        //Esta linea arregla la codificacion sino no aparecen en la salida en JSON quedan NULL
+        $conexionDB -> exec("set names utf8");
+        return $conexionDB;
+    }
 }
