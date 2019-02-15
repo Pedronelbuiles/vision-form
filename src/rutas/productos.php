@@ -67,6 +67,7 @@ $app->post('/api/productos/agregar', function(Request $request, Response $respon
     $precio_unitario = $request->getParam('precio_unitario');
     $cantidad_ordenada = $request->getParam('cantidad_ordenada');
     $cantidad_stock = $request->getParam('cantidad_stock');
+    
     $query = "INSERT INTO productos(nombre, categoria, precio_unitario, cantidad_ordenada, cantidad_stock)
     VALUES (:nombre,:categoria, :precio_unitario, :cantidad_ordenada, :cantidad_stock)";
     

@@ -19,6 +19,9 @@ $(function(){
     $('#btn_mostrar_productos').click(function(){
         mostrar_productos();
     });
+    $('#btnActualizar').click(function() {
+       mostrarTodos();
+    });
 });
 function listRecords() {
     $.ajax({
@@ -124,4 +127,14 @@ function alimentarApi() {
     $('#frmCrm').fadeToggle('fast','linear');
     listRecords();
     mostrar_productos();
-  }
+  };
+function mostrarTodos() {
+        $.ajax({
+            'url':'logic/mostrar-productos-api.php',
+            'type':'POST',
+            'datatype':'json',
+            'success': function (data) {
+                
+            }
+        });
+};

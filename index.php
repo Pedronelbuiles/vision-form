@@ -76,15 +76,20 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-12 col-md-6 ">
+                <div class="col-12 col-md-6 text-center">
                     <input type="button" value="Modificar" id="bntModificar" class="btn btn-dark">
                 </div>
-                <div class="col-12 col-md-6 text-center">
+                <div class="col-12 col-md-6">
                     <input type="button" value="Guardar con la api" id="bntApi" class="btn btn-dark">
                 </div>
             </div>
         </form>
         <!-- Fin formualrio para creación de productos -->
+        <div class="row barra_btns p-2 mb-3">
+            <div class="col-12 text-center">
+                <button class="btn btn-outline-danger" id="btnActualizar">Actualizar registros</button>
+            </div>
+        </div>
         <!-- Muestra de resultados -->
         <div id="info" class="mt-4">
 
