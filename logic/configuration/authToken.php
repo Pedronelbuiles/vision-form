@@ -16,7 +16,6 @@ print("\n".$response);
 curl_close($curl_var);
 
 if ($response == 1) {
-    // try{
         ZCRMRestClient::initialize();
         $oAuthClient = ZohoOAuth::getClientInstance();
         $refreshToken = $refresh_token;

@@ -20,6 +20,7 @@
         </div>
     <!-- Formualrio para creación de productos -->
         <form name="frmCrm" id="frmCrm" class="formulario" method="POST">
+            <input type="hidden" name="txtId" id="txtId">
             <div class="row">
                 <div class="col-12 col-md-6 text-center nombre_campo">
                     <h4>Nombre</h4>
@@ -81,6 +82,14 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <input type="button" value="Guardar con la api" id="bntApi" class="btn btn-dark">
+                </div>
+            </div>
+            <div class="row mt-2 mb-2">
+                <div class="col-12 col-md-6 text-center">
+                    <input type="button" value="Modificar con api" id="btnModApi" class="btn btn-dark">                    
+                </div>
+                <div class="col-12 col-md-6">
+                    <!-- <input type="button" value="Guardar con la api" id="bntApi" class="btn btn-dark"> -->
                 </div>
             </div>
         </form>

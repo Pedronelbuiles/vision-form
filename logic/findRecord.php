@@ -4,10 +4,11 @@ if (!empty($_POST['entity']) && !empty($_POST['id'])) {
     $con->connect();
     $entity = $_POST['entity'];
     $id = $_POST['id'];
-    $query = "SELECT * FROM $entity WHERE nombre = '$id'";
+    $query = "SELECT * FROM $entity WHERE id = '$id'";
     $con->setQuery($query);
     $arrayResult = $con->getArrayRecord();
     $arrayRecord = [
+        'id'=>$arrayResult['id'],
         'nombre' => $arrayResult['nombre'],
         'categoria' => utf8_encode($arrayResult['categoria']),
         'precio_unitario' => $arrayResult['precio_unitario'],

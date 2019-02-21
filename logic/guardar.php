@@ -25,6 +25,23 @@ if (!empty($_POST['txtnombre']) && !empty($_POST['txtcategoria']) && !empty($_PO
         $recordsArray = array($records); //Lleno el array para enviar los datos
         //$zcrmModuleIns->upsertRecords($recordsArray); // Este metodo es utilizado para que si el objeto ya existe se sobreescriba de lo contrario de cree
         $APIResponse=$zcrmModuleIns->createRecords($recordsArray); //Aqui Enviamos y creamos el record al crm
+        $entityResponses = $APIResponse->getEntityResponses();
+        $idProducto;
+        foreach ($entityResponses as $entityResponse) { //recorremos el objeto que nos devuelve el crm
+            if ("success"==$entityResponse->getStatus()) { // verificamos que se realizo correctamente
+                $createdRecordInstance=$entityResponse->getData(); //obtenemos los datos del producto
+                $idProducto = $createdRecordInstance->getEntityId(); // obtenemos el id del producto
+            }
+        }
+
+        //Guardamos de el id en la bd
+        $query = "UPDATE productos SET id='$idProducto' WHERE nombre = '$nombre'";
+        $con->setQuery($query);
+
+        //$respuestaDentro = json_encode($APIResponse);
+        
+        //$createdRecordInstance=$APIResponse[0]->getData();
+        //$message = "EntityID:".$createdRecordInstance->getEntityId();
 
         //Ejemplo
         // $zcrmModuleIns = ZCRMModule::getInstance("Products"); 

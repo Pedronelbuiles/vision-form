@@ -14,6 +14,7 @@ $(function(){
     $('#btn_crear_producto').click(function(){
         $('#btnGuardar').attr('disabled',false);
         $('#bntModificar').attr('disabled',true);
+        $('#btnModApi').attr('disabled',true);
         mostrar_form();
     });
     $('#btn_mostrar_productos').click(function(){
@@ -21,6 +22,9 @@ $(function(){
     });
     $('#btnActualizar').click(function() {
        mostrarTodos();
+    });
+    $('#btnModApi').click(function() {
+        modificarConApi();
     });
 });
 function listRecords() {
@@ -49,15 +53,16 @@ function guardarRecords(){
         }
     });
 };
-function deleteRecord(tabla, nombre) {
+function deleteRecord(tabla, id) {
     $.ajax({
         'url':'logic/delete.php',
-        'data': {'tabla':tabla, 'nombre':nombre},
+        'data': {'tabla':tabla, 'id':id},
         'type': 'POST',
         'dataType': 'json',
         'success': function(data) {
-            $('#info').html(data.message);
+            mostrar_productos();
             listRecords();
+            mostrar_productos();
         }
     });
 };
@@ -93,6 +98,7 @@ function getRecord(entity, id) {
         'dataType':'json',
         'success':function(data) {
             if (data.message === '') {
+                $('#txtId').val(data.id);
                 $('#txtnombre').val(data.nombre);
                 $('#txtcategoria').val(data.categoria);
                 $('#txtprecio').val(data.precio_unitario);
@@ -114,11 +120,24 @@ function getRecord(entity, id) {
     });
     $('#btnGuardar').attr('disabled',true);
     $('#bntModificar').attr('disabled',false);
+    $('#btnModApi').attr('disabled',false);
     mostrar_form();
 };
 function alimentarApi() {
     $.ajax({
       'url': 'logic/alimentar-api.php', 
+      'type': 'POST',
+      'datatype': 'json',
+      'data': $('#frmCrm').serialize()
+    });
+    $('#frmCrm').trigger('reset');
+    $('#frmCrm').fadeToggle('fast','linear');
+    listRecords();
+    mostrar_productos();
+  };
+  function modificarConApi() {
+    $.ajax({
+      'url': 'logic/modificar-con-api.php', 
       'type': 'POST',
       'datatype': 'json',
       'data': $('#frmCrm').serialize()

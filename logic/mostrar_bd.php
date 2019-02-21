@@ -15,7 +15,7 @@ $table = "<div class='row encabezado_tabla'>
             <div class='col-2'>Acciones</div>
         </div>";
 while ($row = $con->getArrayRecord()) {
-    $nombre = utf8_encode($row['nombre']);
+    $id = $row['id'];
     $table .= "<div class='row mt-2 contenedor_padre'>
                 <div class='col-3'>".utf8_encode($row['nombre'])."</div>
                 <div class='col-2'>".utf8_encode($row['categoria'])."</div>
@@ -24,8 +24,8 @@ while ($row = $con->getArrayRecord()) {
                 <div class='col-1'>".utf8_encode($row['cantidad_stock'])."</div>
                 <div class='col-1'>".utf8_encode($row['update_crm'])."</div>
                 <div class='col-2 text-center'>
-                    <a href='#!' class='btn btn-danger btn-sm MyBtn' title='Eliminar a ".utf8_encode($row['nombre'])."' onclick='if(confirm(\"¿Estas seguro?\")){deleteRecord(\"$entity\", \"$nombre\");}'>Eliminar</a>
-                    <a href='#!' class='btn btn-light btn-sm mt-2 MyBtn' title='Modificar a ".utf8_encode($row['nombre'])."' onclick='getRecord(\"$entity\", \"$nombre\");'>Modificar</a>
+                    <a href='#!' class='btn btn-danger btn-sm MyBtn' title='Eliminar a ".utf8_encode($row['nombre'])."' onclick='if(confirm(\"¿Estas seguro?\")){deleteRecord(\"$entity\", \"$id\");}'>Eliminar</a>
+                    <a href='#!' class='btn btn-light btn-sm mt-2 MyBtn' title='Modificar a ".utf8_encode($row['nombre'])."' onclick='getRecord(\"$entity\", \"$id\");'>Modificar</a>
                 </div>
             </div>";
 }

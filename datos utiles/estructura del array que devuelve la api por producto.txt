@@ -1,190 +1,257 @@
-ZCRMRecord Object 
-    ( 
-        [entityId:ZCRMRecord:private] => 376670000001726002 
-        [moduleApiName:ZCRMRecord:private] => Products 
-        [lineItems:ZCRMRecord:private] => Array ( ) 
-        [lookupLabel:ZCRMRecord:private] => 
-        [owner:ZCRMRecord:private] => ZCRMUser Object
-            ( [id:ZCRMUser:private] => 376670000001638001
-              [name:ZCRMUser:private] => Pedro Builes
-              [signature:ZCRMUser:private] =>
-              [country:ZCRMUser:private] => 
-              [role:ZCRMUser:private] => 
-              [customizeInfo:ZCRMUser:private] => 
-              [city:ZCRMUser:private] => 
-              [nameFormat:ZCRMUser:private] => 
-              [language:ZCRMUser:private] => 
-              [locale:ZCRMUser:private] => 
-              [isPersonalAccount:ZCRMUser:private] => 
-              [defaultTabGroup:ZCRMUser:private] => 
-              [street:ZCRMUser:private] => 
-              [alias:ZCRMUser:private] => 
-              [theme:ZCRMUser:private] => 
-              [state:ZCRMUser:private] => 
-              [countryLocale:ZCRMUser:private] => 
-              [fax:ZCRMUser:private] => 
-              [firstName:ZCRMUser:private] => 
-              [email:ZCRMUser:private] => 
-              [zip:ZCRMUser:private] => 
-              [decimalSeparator:ZCRMUser:private] => 
-              [website:ZCRMUser:private] => 
-              [timeFormat:ZCRMUser:private] => 
-              [profile:ZCRMUser:private] => 
-              [mobile:ZCRMUser:private] => 
-              [lastName:ZCRMUser:private] => 
-              [timeZone:ZCRMUser:private] => 
-              [zuid:ZCRMUser:private] => 
-              [isConfirm:ZCRMUser:private] => 
-              [fullName:ZCRMUser:private] => 
-              [phone:ZCRMUser:private] => 
-              [dob:ZCRMUser:private] => 
-              [dateFormat:ZCRMUser:private] => 
-              [status:ZCRMUser:private] => 
-              [createdBy:ZCRMUser:private] => 
-              [modifiedBy:ZCRMUser:private] => 
-              [territories:ZCRMUser:private] => 
-              [reportingTo:ZCRMUser:private] => 
-              [isOnline:ZCRMUser:private] => 
-              [currency:ZCRMUser:private] => 
-              [createdTime:ZCRMUser:private] => 
-              [modifiedTime:ZCRMUser:private] => 
-              [fieldNameVsValue:ZCRMUser:private] => Array ( ) 
-            )
-        [createdBy:ZCRMRecord:private] => ZCRMUser Object 
-            ( [id:ZCRMUser:private] => 376670000001638001 
-                [name:ZCRMUser:private] => Pedro Builes 
-                [signature:ZCRMUser:private] => 
-                [country:ZCRMUser:private] => 
-                [role:ZCRMUser:private] => 
-                [customizeInfo:ZCRMUser:private] => 
-                [city:ZCRMUser:private] => 
-                [nameFormat:ZCRMUser:private] => 
-                [language:ZCRMUser:private] => 
-                [locale:ZCRMUser:private] => 
-                [isPersonalAccount:ZCRMUser:private] => 
-                [defaultTabGroup:ZCRMUser:private] => 
-                [street:ZCRMUser:private] => 
-                [alias:ZCRMUser:private] => 
-                [theme:ZCRMUser:private] => 
-                [state:ZCRMUser:private] => 
-                [countryLocale:ZCRMUser:private] => 
-                [fax:ZCRMUser:private] => 
-                [firstName:ZCRMUser:private] => 
-                [email:ZCRMUser:private] => 
-                [zip:ZCRMUser:private] => 
-                [decimalSeparator:ZCRMUser:private] => 
-                [website:ZCRMUser:private] => 
-                [timeFormat:ZCRMUser:private] => 
-                [profile:ZCRMUser:private] => 
-                [mobile:ZCRMUser:private] => 
-                [lastName:ZCRMUser:private] => 
-                [timeZone:ZCRMUser:private] => 
-                [zuid:ZCRMUser:private] => 
-                [isConfirm:ZCRMUser:private] => 
-                [fullName:ZCRMUser:private] => 
-                [phone:ZCRMUser:private] => 
-                [dob:ZCRMUser:private] => 
-                [dateFormat:ZCRMUser:private] => 
-                [status:ZCRMUser:private] => 
-                [createdBy:ZCRMUser:private] => 
-                [modifiedBy:ZCRMUser:private] => 
-                [territories:ZCRMUser:private] => 
-                [reportingTo:ZCRMUser:private] => 
-                [isOnline:ZCRMUser:private] => 
-                [currency:ZCRMUser:private] => 
-                [createdTime:ZCRMUser:private] => 
-                [modifiedTime:ZCRMUser:private] => 
-                [fieldNameVsValue:ZCRMUser:private] => Array ( ) 
-            ) 
-        [modifiedBy:ZCRMRecord:private] => ZCRMUser Object 
-            ( [id:ZCRMUser:private] => 376670000001638001 
-              [name:ZCRMUser:private] => Pedro Builes 
-              [signature:ZCRMUser:private] => 
-              [country:ZCRMUser:private] => 
-              [role:ZCRMUser:private] => 
-              [customizeInfo:ZCRMUser:private] => 
-              [city:ZCRMUser:private] => 
-              [nameFormat:ZCRMUser:private] => 
-              [language:ZCRMUser:private] => 
-              [locale:ZCRMUser:private] => 
-              [isPersonalAccount:ZCRMUser:private] => 
-              [defaultTabGroup:ZCRMUser:private] => 
-              [street:ZCRMUser:private] => 
-              [alias:ZCRMUser:private] => 
-              [theme:ZCRMUser:private] => 
-              [state:ZCRMUser:private] => 
-              [countryLocale:ZCRMUser:private] => 
-              [fax:ZCRMUser:private] => 
-              [firstName:ZCRMUser:private] => 
-              [email:ZCRMUser:private] => 
-              [zip:ZCRMUser:private] => 
-              [decimalSeparator:ZCRMUser:private] => 
-              [website:ZCRMUser:private] => 
-              [timeFormat:ZCRMUser:private] => 
-              [profile:ZCRMUser:private] => 
-              [mobile:ZCRMUser:private] => 
-              [lastName:ZCRMUser:private] => 
-              [timeZone:ZCRMUser:private] => 
-              [zuid:ZCRMUser:private] => 
-              [isConfirm:ZCRMUser:private] => 
-              [fullName:ZCRMUser:private] => 
-              [phone:ZCRMUser:private] => 
-              [dob:ZCRMUser:private] => 
-              [dateFormat:ZCRMUser:private] => 
-              [status:ZCRMUser:private] => 
-              [createdBy:ZCRMUser:private] => 
-              [modifiedBy:ZCRMUser:private] => 
-              [territories:ZCRMUser:private] => 
-              [reportingTo:ZCRMUser:private] => 
-              [isOnline:ZCRMUser:private] => 
-              [currency:ZCRMUser:private] => 
-              [createdTime:ZCRMUser:private] => 
-              [modifiedTime:ZCRMUser:private] => 
-              [fieldNameVsValue:ZCRMUser:private] => Array ( ) 
-            ) 
-        [createdTime:ZCRMRecord:private] => 2019-02-13T17:02:46-05:00 
-        [modifiedTime:ZCRMRecord:private] => 2019-02-13T17:02:46-05:00 
-        [fieldNameVsValue:ZCRMRecord:private] => Array 
-            ( [Product_Category] => Portatil 
-              [Qty_in_Demand] => 0 
-              [Description] => 
-              [Vendor_Name] => 
-              [Sales_Start_Date] => 
-              [Product_Active] => 1 
-              [Record_Image] => 
-              [Product_Code] => 
-              [Support_Expiry_Date] => 
-              [Commission_Rate] => 0 
-              [Product_Name] => prueba form api y crm 
-              [Handler] => 
-              [Support_Start_Date] => 
-              [Usage_Unit] => 
-              [Qty_Ordered] => 12 
-              [Multil_nea_1] => 
-              [Qty_in_Stock] => 0 
-              [Tag] => Array ( ) 
-              [Sales_End_Date] => 
-              [Unit_Price] => 1234567 
-              [Taxable] => 1 
-              [Reorder_Level] => 0 
-            ) 
-        [properties:ZCRMRecord:private] => Array 
-            ( [currency_symbol] => CO$ 
-              [process_flow] => 
-              [approved] => 1 
-              [approval] => Array 
-                ( [delegate] => 
-                  [approve] => 
-                  [reject] => 
-                  [resubmit] => 
-                ) 
-              [taxable] => 1 
-              [editable] => 1 
-            ) 
-        [participants:ZCRMRecord:private] => Array ( ) 
-        [priceDetails:ZCRMRecord:private] => Array ( ) 
-        [layout:ZCRMRecord:private] => 
-        [taxList:ZCRMRecord:private] => Array ( ) 
-        [lastActivityTime:ZCRMRecord:private] => 
-        [tags:ZCRMRecord:private] => Array ( ) 
-    ) {}
+Array 
+  ( 
+    [ZCRMRecordentityId] => 376670000001747002 
+    [ZCRMRecordmoduleApiName] => Products 
+    [ZCRMRecordlineItems] => Array ( ) 
+    [ZCRMRecordlookupLabel] => 
+    [ZCRMRecordowner] => ZCRMUser Object 
+      ( 
+        [id:ZCRMUser:private] => 376670000001638001 
+        [name:ZCRMUser:private] => Pedro Builes 
+        [signature:ZCRMUser:private] => 
+        [country:ZCRMUser:private] => 
+        [role:ZCRMUser:private] => 
+        [customizeInfo:ZCRMUser:private] => 
+        [city:ZCRMUser:private] => 
+        [nameFormat:ZCRMUser:private] => 
+        [language:ZCRMUser:private] => 
+        [locale:ZCRMUser:private] => 
+        [isPersonalAccount:ZCRMUser:private] => 
+        [defaultTabGroup:ZCRMUser:private] => 
+        [street:ZCRMUser:private] => 
+        [alias:ZCRMUser:private] => 
+        [theme:ZCRMUser:private] => 
+        [state:ZCRMUser:private] => 
+        [countryLocale:ZCRMUser:private] => 
+        [fax:ZCRMUser:private] => 
+        [firstName:ZCRMUser:private] => 
+        [email:ZCRMUser:private] => 
+        [zip:ZCRMUser:private] => 
+        [decimalSeparator:ZCRMUser:private] => 
+        [website:ZCRMUser:private] => 
+        [timeFormat:ZCRMUser:private] => 
+        [profile:ZCRMUser:private] => 
+        [mobile:ZCRMUser:private] => 
+        [lastName:ZCRMUser:private] => 
+        [timeZone:ZCRMUser:private] => 
+        [zuid:ZCRMUser:private] => 
+        [isConfirm:ZCRMUser:private] => 
+        [fullName:ZCRMUser:private] => 
+        [phone:ZCRMUser:private] => 
+        [dob:ZCRMUser:private] => 
+        [dateFormat:ZCRMUser:private] => 
+        [status:ZCRMUser:private] => 
+        [createdBy:ZCRMUser:private] => 
+        [modifiedBy:ZCRMUser:private] => 
+        [territories:ZCRMUser:private] => 
+        [reportingTo:ZCRMUser:private] => 
+        [isOnline:ZCRMUser:private] => 
+        [currency:ZCRMUser:private] => 
+        [createdTime:ZCRMUser:private] => 
+        [modifiedTime:ZCRMUser:private] => 
+        [fieldNameVsValue:ZCRMUser:private] => Array ( )
+      ) 
+    [ZCRMRecordcreatedBy] => ZCRMUser Object 
+      ( 
+        [id:ZCRMUser:private] => 376670000001638001 
+        [name:ZCRMUser:private] => Pedro Builes 
+        [signature:ZCRMUser:private] => 
+        [country:ZCRMUser:private] => 
+        [role:ZCRMUser:private] => 
+        [customizeInfo:ZCRMUser:private] => 
+        [city:ZCRMUser:private] => 
+        [nameFormat:ZCRMUser:private] => 
+        [language:ZCRMUser:private] => 
+        [locale:ZCRMUser:private] => 
+        [isPersonalAccount:ZCRMUser:private] => 
+        [defaultTabGroup:ZCRMUser:private] => 
+        [street:ZCRMUser:private] => 
+        [alias:ZCRMUser:private] => 
+        [theme:ZCRMUser:private] => 
+        [state:ZCRMUser:private] => 
+        [countryLocale:ZCRMUser:private] => 
+        [fax:ZCRMUser:private] => 
+        [firstName:ZCRMUser:private] => 
+        [email:ZCRMUser:private] => 
+        [zip:ZCRMUser:private] => 
+        [decimalSeparator:ZCRMUser:private] => 
+        [website:ZCRMUser:private] => 
+        [timeFormat:ZCRMUser:private] => 
+        [profile:ZCRMUser:private] => 
+        [mobile:ZCRMUser:private] => 
+        [lastName:ZCRMUser:private] => 
+        [timeZone:ZCRMUser:private] => 
+        [zuid:ZCRMUser:private] => 
+        [isConfirm:ZCRMUser:private] => 
+        [fullName:ZCRMUser:private] => 
+        [phone:ZCRMUser:private] => 
+        [dob:ZCRMUser:private] => 
+        [dateFormat:ZCRMUser:private] => 
+        [status:ZCRMUser:private] => 
+        [createdBy:ZCRMUser:private] => 
+        [modifiedBy:ZCRMUser:private] => 
+        [territories:ZCRMUser:private] => 
+        [reportingTo:ZCRMUser:private] => 
+        [isOnline:ZCRMUser:private] => 
+        [currency:ZCRMUser:private] => 
+        [createdTime:ZCRMUser:private] => 
+        [modifiedTime:ZCRMUser:private] => 
+        [fieldNameVsValue:ZCRMUser:private] => Array ( ) 
+      ) 
+    [ZCRMRecordmodifiedBy] => ZCRMUser Object 
+      ( 
+        [id:ZCRMUser:private] => 376670000001638001 
+        [name:ZCRMUser:private] => Pedro Builes 
+        [signature:ZCRMUser:private] => 
+        [country:ZCRMUser:private] => 
+        [role:ZCRMUser:private] => 
+        [customizeInfo:ZCRMUser:private] => 
+        [city:ZCRMUser:private] => 
+        [nameFormat:ZCRMUser:private] => 
+        [language:ZCRMUser:private] => 
+        [locale:ZCRMUser:private] => 
+        [isPersonalAccount:ZCRMUser:private] => 
+        [defaultTabGroup:ZCRMUser:private] => 
+        [street:ZCRMUser:private] => 
+        [alias:ZCRMUser:private] => 
+        [theme:ZCRMUser:private] => 
+        [state:ZCRMUser:private] => 
+        [countryLocale:ZCRMUser:private] => 
+        [fax:ZCRMUser:private] => 
+        [firstName:ZCRMUser:private] => 
+        [email:ZCRMUser:private] => 
+        [zip:ZCRMUser:private] => 
+        [decimalSeparator:ZCRMUser:private] => 
+        [website:ZCRMUser:private] => 
+        [timeFormat:ZCRMUser:private] => 
+        [profile:ZCRMUser:private] => 
+        [mobile:ZCRMUser:private] => 
+        [lastName:ZCRMUser:private] => 
+        [timeZone:ZCRMUser:private] => 
+        [zuid:ZCRMUser:private] => 
+        [isConfirm:ZCRMUser:private] => 
+        [fullName:ZCRMUser:private] => 
+        [phone:ZCRMUser:private] => 
+        [dob:ZCRMUser:private] => 
+        [dateFormat:ZCRMUser:private] => 
+        [status:ZCRMUser:private] => 
+        [createdBy:ZCRMUser:private] => 
+        [modifiedBy:ZCRMUser:private] => 
+        [territories:ZCRMUser:private] => 
+        [reportingTo:ZCRMUser:private] => 
+        [isOnline:ZCRMUser:private] => 
+        [currency:ZCRMUser:private] => 
+        [createdTime:ZCRMUser:private] => 
+        [modifiedTime:ZCRMUser:private] => 
+        [fieldNameVsValue:ZCRMUser:private] => Array ( ) 
+      ) 
+    [ZCRMRecordcreatedTime] => 2019-02-18T15:19:43-05:00 
+    [ZCRMRecordmodifiedTime] => 2019-02-18T15:19:43-05:00 
+    [ZCRMRecordfieldNameVsValue] => Array 
+      ( 
+        [Product_Category] => Mantenimiento Equipos 
+        [Qty_in_Demand] => 0 
+        [Description] => 
+        [Vendor_Name] => 
+        [Sales_Start_Date] => 
+        [Product_Active] => 1 
+        [Record_Image] => 
+        [Product_Code] => 
+        [Support_Expiry_Date] => 
+        [Commission_Rate] => 0 
+        [Product_Name] => subida de producto 
+        [Handler] => 
+        [Support_Start_Date] => 
+        [Usage_Unit] => 
+        [Qty_Ordered] => 300 
+        [Multil_nea_1] => 
+        [Qty_in_Stock] => 0 
+        [Tag] => Array ( ) 
+        [Sales_End_Date] => 
+        [Unit_Price] => 12000 
+        [Taxable] => 1 
+        [Reorder_Level] => 0 
+      ) 
+    [ZCRMRecordproperties] => Array 
+      ( 
+        [currency_symbol] => CO$ 
+        [process_flow] => 
+        [approved] => 1 
+        [approval] => Array 
+          ( 
+            [delegate] => 
+            [approve] => 
+            [reject] => 
+            [resubmit] => 
+          ) 
+        [taxable] => 1 
+        [editable] => 1 
+      ) 
+    [ZCRMRecordparticipants] => Array ( ) 
+    [ZCRMRecordpriceDetails] => Array ( ) 
+    [ZCRMRecordlayout] => 
+    [ZCRMRecordtaxList] => Array ( ) 
+    [ZCRMRecordlastActivityTime] => 
+    [ZCRMRecordtags] => Array ( ) 
+  )
+
+
+  ***************************************************************************************************
+
+  {
+    "\u0000ZCRMRecord\u0000entityId":"376670000001747002",
+    "\u0000ZCRMRecord\u0000moduleApiName":"Products",
+    "\u0000ZCRMRecord\u0000lineItems":[],
+    "\u0000ZCRMRecord\u0000lookupLabel":null,
+    "\u0000ZCRMRecord\u0000owner":{},
+    "\u0000ZCRMRecord\u0000createdBy":{},
+    "\u0000ZCRMRecord\u0000modifiedBy":{},
+    "\u0000ZCRMRecord\u0000createdTime":"2019-02-18T15:19:43-05:00",
+    "\u0000ZCRMRecord\u0000modifiedTime":"2019-02-18T15:19:43-05:00",
+    "\u0000ZCRMRecord\u0000fieldNameVsValue":
+      {
+        "Product_Category":"Mantenimiento Equipos",
+        "Qty_in_Demand":0,
+        "Description":null,
+        "Vendor_Name":null,
+        "Sales_Start_Date":null,
+        "Product_Active":true,
+        "Record_Image":null,
+        "Product_Code":null,
+        "Support_Expiry_Date":null,
+        "Commission_Rate":0,
+        "Product_Name":"subida de producto",
+        "Handler":null,
+        "Support_Start_Date":null,
+        "Usage_Unit":null,
+        "Qty_Ordered":300,
+        "Multil_nea_1":null,
+        "Qty_in_Stock":0,
+        "Tag":[],
+        "Sales_End_Date":null,
+        "Unit_Price":12000,
+        "Taxable":true,
+        "Reorder_Level":0
+      },
+    "\u0000ZCRMRecord\u0000properties":
+      {
+        "currency_symbol":"CO$",
+        "process_flow":false,
+        "approved":true,
+        "approval":
+          {
+            "delegate":false,
+            "approve":false,
+            "reject":false,
+            "resubmit":false
+          },
+        "taxable":true,
+        "editable":true
+      },
+    "\u0000ZCRMRecord\u0000participants":[],
+    "\u0000ZCRMRecord\u0000priceDetails":[],
+    "\u0000ZCRMRecord\u0000layout":null,
+    "\u0000ZCRMRecord\u0000taxList":[],
+    "\u0000ZCRMRecord\u0000lastActivityTime":null,
+    "\u0000ZCRMRecord\u0000tags":[]
+  }

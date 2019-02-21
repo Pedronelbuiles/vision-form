@@ -1,12 +1,15 @@
 <?php 
 include 'configuration/config.php';
 $con->connect();
-if(!empty($_POST['tabla']) && !empty($_POST['nombre']) ){
+if(!empty($_POST['tabla']) && !empty($_POST['id']) ){
     $tabla = $_POST['tabla'];
-    $nombre = $_POST['nombre'];
-    $query = "DELETE FROM $tabla WHERE nombre = '$nombre'";
+    $id = $_POST['id'];
+    $query = "DELETE FROM $tabla WHERE id = '$id'";
     $con->setQuery($query);
     if ($con->getQuery()) {
+        include 'configuration/authToken.php';
+        $zcrmRecordIns = ZCRMRecord::getInstance("Products", $id); //record id
+        $apiResponse=$zcrmRecordIns->delete();
         $message = "Registro eliminado";
     }else {
         $message = "error al eliminar";
